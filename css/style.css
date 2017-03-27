@@ -1,0 +1,321 @@
+.jumbotron{
+	background: -webkit-linear-gradient(to top, rgba(17, 56, 97, 0.3), rgb(1, 18, 27));
+    background: -o-linear-gradient(to top, rgba(17, 56, 97, 0.3), rgb(1, 18, 27));
+    background: -moz-linear-gradient(to top, rgba(17, 56, 97, 0.3), rgb(1, 18, 27));
+    background: linear-gradient(to top, rgba(17, 56, 97, 0.3), rgb(1, 18, 27));
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 55px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+.jumbotron h2, p{
+	margin: 5px 10px;
+}
+.jumbotron p:last-child {
+	margin: 0 auto;
+}
+h2, h1{
+	font-family: 'Baloo Bhaina', cursive;
+}
+p, #logo{
+	font-family: 'Tinos', serif;
+}
+hr{
+  border: 0; 
+  height: 3px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #009688, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #009688, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #009688, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #009688, #f0f0f0); 
+}
+.section{
+	margin-top: 10px;
+	box-shadow: rgba(158, 158, 158, 0.65) 5px 5px 14px 3px;
+}
+.navbar{
+	margin-bottom: 0px;
+	background-color: #039789;
+}
+.navbar a{
+	font-family: 'Tinos', serif;
+	color: #fff;
+}
+.navbar a:hover{
+	color: #000;
+}
+.navbar-toggle{
+	
+	border-color: #fff;
+}
+.icon-bar{
+	background-color: #fff;
+}
+.service-img{
+	width: 150px;
+	height: 150px;
+}
+.product-img{
+	width: 250px;
+	height: 250px;
+}
+.img-responsive{
+	margin:  0 auto;
+}
+.container{
+	margin:0 auto;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.service-box{
+	margin-bottom: 10px;
+	padding: 20px 10px;
+	margin-bottom: 10px;
+}
+.btn-primary{
+	background-color: #039789; 
+}
+#about-text{
+	margin: 5px 0px;
+	padding: 10px 0px;
+}
+#form-info input{
+	width: 180px;
+	height: 35px;
+	border: solid 1px #039789;
+	border-radius: 10px;
+}
+#form-info{
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+#form-massege{
+	width: 200px;
+	height: 180px;
+	border: solid 1px #039789;
+	border-radius: 10px;
+	word-wrap: break-word;
+}
+#submit-btn{
+	background-color: #039789;
+	color: #fff;
+	border: none;
+	display: block;
+	border-radius: 15px;
+	width: 210px;
+	height: 40px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+#myToggle{
+	text-align: center;
+	width: 225px;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.jumbotron{
+		background: url(../images/image2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 250px;
+		margin-top: 50px;
+		margin-bottom: 0px; 
+		color: #fff;
+	}
+	.service-img{
+		width: 120px;
+		height: 120px;
+	}
+	.product-img{
+		width: 200px;
+		height: 200px;
+	}
+	.section{
+		margin: 20px 5px 10px 5px;
+		box-shadow: rgba(158, 158, 158, 0.65) 5px 5px 12px 3px;
+	}
+	.service-box{
+		padding: 10px;
+	}
+	#about-text{
+		padding: 10px 10px;
+	}
+	#form-info input{
+		width: 200px;
+		height: 35px;
+		border: solid 1px #039789;
+		border-radius: 10px;
+
+	}
+	#form-info{
+		margin: 0 auto;
+		margin-bottom: 10px;
+		padding-left: 150px;
+	}
+	#form-massege{
+		width: 250px;
+		height: 200px;
+		border: solid 1px #039789;
+		border-radius: 10px;
+		word-wrap: break-word;
+	}
+	#submit-btn{
+		width: 320px;
+	}
+	#myToggle{
+	float: right;
+	width: auto;
+}}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 980px) {
+	.section{
+		margin: 0 auto;
+		margin-top: 20px; 
+		width: 90%;
+	}
+	#form-info{
+		margin: 0 auto;
+		margin-bottom: 10px;
+		padding-left: 190px;
+	}
+		#form-massege{
+		width: 220px;
+		height: 190px;
+		border: solid 1px #039789;
+		border-radius: 10px;
+		word-wrap: break-word;
+	}
+	.service-box h2{
+		font-size: 16px;
+		font-weight: bolder;
+	}
+	.shop-box h2{
+		font-size: 16px;
+		font-weight: bolder;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.jumbotron{
+		background: url(../images/image2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 350px;
+		margin-top: 50px;
+		margin-bottom: 20px;
+		color: #fff;
+	}
+	.jumbotron h2{
+		margin: 15px 10px;
+	}
+	#jumbo-text{
+		margin-bottom: 30px;
+	}
+	hr{
+	  border: 0; 
+	  height: 3px; 
+	  background-image: -webkit-linear-gradient(left, #f0f0f0, #009688, #f0f0f0);
+	  background-image: -moz-linear-gradient(left, #f0f0f0, #009688, #f0f0f0);
+	  background-image: -ms-linear-gradient(left, #f0f0f0, #009688, #f0f0f0);
+	  background-image: -o-linear-gradient(left, #f0f0f0, #009688, #f0f0f0); 
+	}
+	.section{
+		margin-top: 20px;
+		box-shadow: rgba(158, 158, 158, 0.65) 5px 5px 14px 3px;
+	}
+	.navbar{
+		margin-bottom: 0px;
+		background-color: #039789;
+	}
+	.navbar a{
+		color: #fff;
+	}
+	.navbar a:hover{
+		color: #000;
+	}
+	.navbar-toggle{
+		
+		border-color: #fff;
+	}
+	.icon-bar{
+		background-color: #fff;
+	}
+	#logo:hover{
+	 color: #fff;
+	}
+	.service-box h2{
+		font-size: 2em;
+		font-weight: normal;
+	}
+	.shop-box h2{
+		font-size: 2em;
+		font-weight: normal;
+	}
+	.service-img{
+		width: 150px;
+		height: 150px;
+	}
+	.product-img{
+		width: 250px;
+		height: 250px;
+	}
+	.img-responsive{
+		margin:  0 auto;
+	}
+	.container{
+		margin:0 auto;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
+	.service-box{
+		padding: 20px 50px;
+	}
+	.btn-primary{
+		background-color: #039789; 
+	}
+	#about-text{
+		padding: 10px 50px;
+	}
+	#form-info input{
+		width: 200px;
+		height: 35px;
+		border: solid 1px #039789;
+		border-radius: 10px;
+
+	}
+	#form-info{
+		margin: 0 auto;
+		margin-bottom: 10px;
+		padding-left: 300px;
+	}
+	#form-massege{
+		width: 50%;
+		height: auto;
+		width: 250px;
+		height: 200px;
+		border: solid 1px #039789;
+		border-radius: 10px;
+		word-wrap: break-word;
+	}
+	#submit-btn{
+		background-color: #039789;
+		color: #fff;
+		border: none;
+		display: block;
+		border-radius: 15px;
+		width: 320px;
+		height: 40px;
+		margin: 0 auto;
+		margin-bottom: 40px;
+	}
+	#myToggle{
+	float: right;
+	width: auto;
+}
+}
